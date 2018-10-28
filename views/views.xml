@@ -1,29 +1,5 @@
 <odoo>
   <data>
 
-        <record id= "view_account_analytic_line_tree_inherited" model= "ir.ui.view">
-            
-            <field name="inherit_id" ref="analytic.view_account_analytic_line_tree" />
-            <field name="model">account.analytic.line</field>
-            <field name="arch" type="xml">                                
-
-                <field name="date" position='before'>
-                    <field name="provincia"/>
-                </field>
-
-            </field>
-        </record>
-
-        <record id="view_account_analytic_line_filter_inherited" model="ir.ui.view">
-            <!-- <field name="name">Agro</field> -->
-            <field name="model">account.analytic.line</field>
-            <field name="inherit_id" ref="analytic.view_account_analytic_line_filter"/>
-            <field name="arch" type="xml">
-                <!-- <separator/> -->
-                <field name="date" position='before'>
-                  <filter name="group_provincia"  string="Por provincia" context="{'group_by': 'provincia'}"/>
-                </field>
-            </field>
-        </record>
   </data>
 </odoo>

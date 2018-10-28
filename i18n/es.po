@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* locar
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-28 18:38+0000\n"
+"PO-Revision-Date: 2018-10-28 15:41-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: locar
+#: model:ir.model.fields,help:locar.field_account_analytic_line_provincia
+msgid "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
+msgstr "División administrativa de un país. Por ejemplo Comunidad Autónoma, Provincia, Ayuntamiento"
+
+#. module: locar
+#: model:ir.model,name:locar.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Línea analítica"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_categ_id
+msgid "Categoria"
+msgstr "Categoria"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_state_id
+msgid "Estado"
+msgstr "Estado"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_product_product_expense_analytic_distribution_id
+#: model:ir.model.fields,field_description:locar.field_product_template_expense_analytic_distribution_id
+msgid "Expense Analytic distribution"
+msgstr "Distribución analítica para gastos"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_price_subtotal
+msgid "Facturación Neta (sin IVA)"
+msgstr "Facturación Neta (sin IVA)"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_product_product_income_analytic_distribution_id
+#: model:ir.model.fields,field_description:locar.field_product_template_income_analytic_distribution_id
+msgid "Income Analytic distribution"
+msgstr "Distribución analítica para ingresos"
+
+#. module: locar
+#: model:ir.model,name:locar.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linea de la Factura"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_report_invoice_product_date_invoice
+msgid "Mes factura"
+msgstr "Mes factura"
+
+#. module: locar
+#: model:ir.ui.view,arch_db:locar.account_report_invoice_product_search
+msgid "Por mes"
+msgstr "Por mes"
+
+#. module: locar
+#: model:ir.ui.view,arch_db:locar.account_report_invoice_product_search
+msgid "Por provincia"
+msgstr "Por provincia"
+
+#. module: locar
+#: model:ir.ui.view,arch_db:locar.account_report_invoice_product_search
+msgid "Por rubro"
+msgstr "Por rubro"
+
+#. module: locar
+#: model:ir.model,name:locar.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: locar
+#: model:ir.model.fields,field_description:locar.field_account_analytic_line_provincia
+#: model:ir.ui.view,arch_db:locar.view_account_analytic_line_filter_inherited
+msgid "Provincia"
+msgstr "Provincia"
+
+#. module: locar
+#: model:ir.actions.act_window,name:locar.action_account_invoice_report
+#: model:ir.ui.menu,name:locar.menu_account_report_invoice
+msgid "Reporte de facturación por provincias"
+msgstr "Reporte de facturación por provincias"
+
+#. module: locar
+#: model:ir.model,name:locar.model_account_report_invoice_product
+msgid "account.report.invoice.product"
+msgstr "account.report.invoice.product"
+
+#. module: locar
+#: model:ir.ui.view,arch_db:locar.view_partner_tree_inherited
+msgid "id"
+msgstr "id"

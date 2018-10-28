@@ -19,13 +19,21 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','account', 'analytic'],
+    'depends': ['base',
+                'account', 
+                'analytic',
+                'product_analytic', 
+                'account_analytic_distribution', 
+                'analytic_product_category'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/account_invoice_view.xml',
+        'views/product_view.xml',
+        'views/res_partner_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

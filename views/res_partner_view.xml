@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html). -->
+
+<odoo>
+    <data>
+        <record id= "view_partner_tree_inherited" model= "ir.ui.view">
+            
+            <field name="inherit_id" ref="base.view_partner_tree" />
+            <field name="model">res.partner</field>
+            <field name="arch" type="xml">                                
+
+                <field name="display_name" position='before'>
+                    <field name="id" string="id"/>
+                </field>
+
+            </field>
+        </record>
+    </data>
+</odoo>
