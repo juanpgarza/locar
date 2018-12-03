@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_locar_locar,locar.locar,model_locar_locar,,1,0,0,0
+access_account_report_invoice_product,access_account_report_invoice_product,model_account_report_invoice_product,base.group_user,1,0,0,0
